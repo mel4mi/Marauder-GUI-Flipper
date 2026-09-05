@@ -29,7 +29,7 @@ are performed by the connected ESP32 board.
 
 ## Installation
 
-Copy `marauder_gui.fap` to `apps/GPIO/` on the Flipper Zero SD card, or install the application from
+Copy marauder_gui.fap to apps/GPIO/ on the Flipper Zero SD card, or install the application from
 the Flipper Apps Catalog when available.
 
 ## Responsible use
