@@ -8,6 +8,18 @@
 
 ESP32 Marauder companion app for Flipper Zero.
 
+## Screenshots
+
+| Main menu | Wi-Fi menu |
+| --- | --- |
+| ![Main menu](marauder_gui/screenshots/main-menu.png) | ![Wi-Fi menu](marauder_gui/screenshots/wifi-menu.png) |
+| Wi-Fi attack menu | Bluetooth menu |
+| ![Wi-Fi attack menu](marauder_gui/screenshots/wifi-attack-menu.png) | ![Bluetooth menu](marauder_gui/screenshots/bluetooth-menu.png) |
+| Bluetooth detectors | Multi-AP attack selection |
+| ![Bluetooth detectors](marauder_gui/screenshots/bluetooth-detectors.png) | ![Multi-AP attack selection](marauder_gui/screenshots/multi-ap-attack-selection.png) |
+| Multi-AP deauthentication | |
+| ![Multi-AP deauthentication](marauder_gui/screenshots/multi-ap-deauth-attack.png) | |
+
 <a name="türkçe"></a>
 
 ## Türkçe

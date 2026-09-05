@@ -6,7 +6,7 @@ App(
     apptype=FlipperAppType.EXTERNAL,
     entry_point="marauder_gui_app",
     stack_size=2 * 1024,
-    fap_category="Tools",
+    fap_category="GPIO",
     requires=["gui", "storage"],
     # Optional values
     fap_version="1.0",

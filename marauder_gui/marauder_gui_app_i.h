@@ -221,17 +221,6 @@ struct MarauderGuiApp {
        on_exit so it never leaks into a later single-AP attack. */
     bool wifi_attack_multi_ap;
 
-    /* About screen's Ok-triggered easter egg tune (see marauder_gui_scene_device_about.c) - driven
-       by the app's own tick_handler like every other timed feature here, NOT a separate FuriTimer:
-       furi_hal_speaker_start/stop assert ownership from the calling thread, and a FuriTimer
-       callback runs on the system timer-service thread rather than this app's own thread - a
-       different thread than the one that called furi_hal_speaker_acquire(), which crashed the
-       whole Flipper the first time this was tried (same class of bug as the UART/expansion
-       crash noted elsewhere in this app - see marauder_gui.c). */
-    size_t about_melody_index;
-    bool about_melody_in_gap;
-    bool about_melody_playing;
-    uint32_t about_melody_ticks_remaining;
 };
 
 /* Picks the TR or EN string based on the app's current language - the one helper every scene
