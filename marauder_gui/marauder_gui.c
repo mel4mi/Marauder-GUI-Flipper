@@ -9,8 +9,7 @@
 #define MARAUDER_TICK_PERIOD_MS 100
 
 /* One byte, persisted across reboots so the user only has to pick a language once. Missing file
-   (first run, or an older version without this feature) just leaves app->language at its
-   zero-initialized default (MarauderLanguageTurkish). */
+   (first run, or an older version without this feature) leaves the English default selected. */
 void marauder_gui_load_language(MarauderGuiApp* app) {
     Storage* storage = furi_record_open(RECORD_STORAGE);
     File* file = storage_file_alloc(storage);
@@ -93,6 +92,7 @@ static MarauderGuiApp* marauder_gui_app_alloc(void) {
     app->selected_probe_index = -1;
     app->selected_ip_index = -1;
 
+    app->language = MarauderLanguageEnglish;
     marauder_gui_load_language(app);
 
     app->uart = marauder_uart_alloc();
