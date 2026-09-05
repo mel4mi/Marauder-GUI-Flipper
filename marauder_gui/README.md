@@ -27,18 +27,6 @@ are performed by the connected ESP32 board.
 - Raw serial terminal
 - Persistent Turkish and English interface
 
-## Screenshots
-
-| Main menu | Wi-Fi menu |
-| --- | --- |
-| ![Main menu](screenshots/main-menu.png) | ![Wi-Fi menu](screenshots/wifi-menu.png) |
-| Wi-Fi attack menu | Bluetooth menu |
-| ![Wi-Fi attack menu](screenshots/wifi-attack-menu.png) | ![Bluetooth menu](screenshots/bluetooth-menu.png) |
-| Bluetooth detectors | Multi-AP attack selection |
-| ![Bluetooth detectors](screenshots/bluetooth-detectors.png) | ![Multi-AP attack selection](screenshots/multi-ap-attack-selection.png) |
-| Multi-AP deauthentication | |
-| ![Multi-AP deauthentication](screenshots/multi-ap-deauth-attack.png) | |
-
 ## Installation
 
 Copy `marauder_gui.fap` to `apps/GPIO/` on the Flipper Zero SD card, or install the application from
