@@ -1,12 +1,8 @@
-# Copy this file to the flipper-application-catalog fork as:
-# applications/GPIO/marauder_gui/manifest.yml
-# Replace COMMIT_SHA_AFTER_PUSH with the full 40-character commit SHA after all source files,
-# the license, and qFlipper screenshots have been committed and pushed.
 sourcecode:
   type: git
   location:
     origin: https://github.com/mel4mi/Marauder-GUI-Flipper.git
-    commit_sha: COMMIT_SHA_AFTER_PUSH
+    commit_sha: 98b0c2f9d9b2a9bbe67355e92b7eb4a321a888bc
     subdir: marauder_gui
 
 description: "@README.md"
